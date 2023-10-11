@@ -1,0 +1,117 @@
+[
+  {
+    "project_name": "Metamask",
+    "wallets": [
+      {
+        "address": "0x1f2074496434B20A578fe45e062E6b65bC3BbcCa",
+        "balance": "0"
+      },
+      {
+        "address": "0xC857d2Bc030276791BF0eE32d6E1b401a410FCE5",
+        "balance": "0"
+      },
+      {
+        "address": "0x5916967a4edd37D7b1B17204d0Ad5eF7e0b85Ba9",
+        "balance": "0"
+      }
+    ]
+  },
+  {
+    "project_name": "Keplr",
+    "wallets": [
+      {
+        "address": "sei18rxnx8prex7kjd5wsg3cp925qkn3p0q4kayut6",
+        "balance": "0"
+      },
+      {
+        "address": "sei1ezgnrlm6vfhdcpyq42agps74s5898zc827rrdu",
+        "balance": "0"
+      }
+    ]
+  },
+  {
+    "project_name": "Polkadot",
+    "wallets": [
+      {
+        "address": "14J4JPfvooNxZxWy3ETar1cEn2YQrUxNmv7r5WFCJuDdqGqe",
+        "balance": "0"
+      }
+    ]
+  },
+  {
+    "project_name": "SUI Wallet",
+    "wallets": [
+      {
+        "address": "0xc1953eb00f2ad787be28cf4f18ba6a8cb7d575a242124009f5167d05352a3fef",
+        "balance": "0"
+      }
+    ]
+  },
+  {
+    "project_name": "5irechain",
+    "wallets": [
+      {
+        "address": "5HGmjz1AKaVv2zgSrU8QReu3tV2ykc7ktGUbm4BEJhp8Ehoq",
+        "balance": "0"
+      },
+      {
+        "address": "0x6FDc348586e35e422F66b2e6D0Ee20082e39e4bf",
+        "balance": "0"
+      }
+    ]
+  },
+  {
+    "project_name": "LEAP",
+    "wallets": [
+      {
+        "address": "sei16tkrs9s60k8mzzn26gtgdpn0498ng0rq83gv4k",
+        "balance": "0"
+      }
+    ]
+  },
+  {
+    "project_name": "VENOM",
+    "wallets": [
+      {
+        "address": "0:93e18b20bde31d1ee5b74a0707b86870b0e8cd4502703e4fecc77b0c9dacb101",
+        "balance": "0"
+      }
+    ]
+  },
+  {
+    "project_name": "ArgentX",
+    "wallets": [
+      {
+        "address":"0x060ABf7651e46a998efaD9897Ad990c3a00B2EcB7BcCda7716C5739379E1417e",
+        "balance": "0"
+      }
+    ]
+  },
+  {
+    "project_name": "Fuelet",
+    "wallets": [
+      {
+        "address":"fuel174zrfx790f8m2l56780zc3q45wd40pt0arrkyclsgzqxp9tnfmqs4hld2p",
+        "balance": "0"
+      }
+    ]
+  },
+  {
+    "project_name": "MARTIAN",
+    "wallets": [
+      {
+        "address":"0x237964d27559766f510a190b5f15adbc2006029e7f05e7a6e39c0e13437005c9",
+        "balance": "0"
+      }
+    ]
+  },
+  {
+    "project_name": "TRONLINK",
+    "wallets": [
+      {
+        "address":"TGQSoLXFMDDCV25vU714YHkTeYPYKh9Uyd",
+        "balance":"0"
+      }
+    ]
+  }
+]

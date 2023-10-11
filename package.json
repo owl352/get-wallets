@@ -1,0 +1,23 @@
+{
+  "name": "get-wallets_lex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "owl",
+  "license": "MIT",
+  "dependencies": {
+    "@eversdk/core": "^1.44.3",
+    "@eversdk/lib-node": "^1.44.3",
+    "@polkadot/api": "^10.9.1",
+    "@tatumio/tatum": "^4.0.13",
+    "axios": "^1.5.1",
+    "colors": "^1.4.0",
+    "fuels": "^0.60.0",
+    "starknet": "^5.19.5",
+    "typescript": "^5.2.2",
+    "web3": "^4.1.2"
+  }
+}
