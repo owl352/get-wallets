@@ -13,6 +13,54 @@
       {
         "address": "0x5916967a4edd37D7b1B17204d0Ad5eF7e0b85Ba9",
         "balance": "0"
+      },
+      {
+        "address": "0x7A3DD88b4F6Fff7D7B4Af21Dd595B7386047125c",
+        "balance": "0"
+      },
+      {
+        "address": "0x82A82C7fbABDE69d6Deb584E80836872a56e741c",
+        "balance": "0"
+      },
+      {
+        "address": "0x32aCe008Ac29F2d2F2F94dBDc9493e458d052f7a",
+        "balance": "0"
+      },
+      {
+        "address": "0xf6b991B8CF54A561e171DEF825ac055d6756e39D",
+        "balance": "0"
+      },
+      {
+        "address": "0x0265740E4206Ad930f3CA5FEefEa3cbBaD2b8f07",
+        "balance": "0"
+      },
+      {
+        "address": "0xc26cB278B102eE7BAac2BeE117Eff72b0515C43f",
+        "balance": "0"
+      },
+      {
+        "address": "0xf8267722fbcc441ba0e42fc6f8147fa2479738b7",
+        "balance": "0"
+      },
+      {
+        "address": "0x9092fd34884ba00e5af6aebddf56cff93a9c87a3",
+        "balance": "0"
+      },
+      {
+        "address": "0x974d12c8762b9c18822e74fed9d68b0e098e3938",
+        "balance": "0"
+      },
+      {
+        "address": "0xe68dd626f039f288093f2008e3dd8e2e9cfb1063",
+        "balance": "0"
+      },
+      {
+        "address": "0xb627b70227ffff43ca69e4edb0e8f34a0fc67780",
+        "balance": "0"
+      },
+      {
+        "address": "0x682e9d091d2c950e737f0a2103dda9b91df5a4bf",
+        "balance": "0"
       }
     ]
   },
@@ -31,34 +79,15 @@
   },
   {
     "project_name": "Polkadot",
-    "wallets": [
-      {
-        "address": "14J4JPfvooNxZxWy3ETar1cEn2YQrUxNmv7r5WFCJuDdqGqe",
-        "balance": "0"
-      }
-    ]
+    "wallets": []
   },
   {
     "project_name": "SUI Wallet",
-    "wallets": [
-      {
-        "address": "0xc1953eb00f2ad787be28cf4f18ba6a8cb7d575a242124009f5167d05352a3fef",
-        "balance": "0"
-      }
-    ]
+    "wallets": []
   },
   {
     "project_name": "5irechain",
-    "wallets": [
-      {
-        "address": "5HGmjz1AKaVv2zgSrU8QReu3tV2ykc7ktGUbm4BEJhp8Ehoq",
-        "balance": "0"
-      },
-      {
-        "address": "0x6FDc348586e35e422F66b2e6D0Ee20082e39e4bf",
-        "balance": "0"
-      }
-    ]
+    "wallets": []
   },
   {
     "project_name": "LEAP",
@@ -82,7 +111,7 @@
     "project_name": "ArgentX",
     "wallets": [
       {
-        "address":"0x060ABf7651e46a998efaD9897Ad990c3a00B2EcB7BcCda7716C5739379E1417e",
+        "address": "0x060ABf7651e46a998efaD9897Ad990c3a00B2EcB7BcCda7716C5739379E1417e",
         "balance": "0"
       }
     ]
@@ -91,7 +120,15 @@
     "project_name": "Fuelet",
     "wallets": [
       {
-        "address":"fuel174zrfx790f8m2l56780zc3q45wd40pt0arrkyclsgzqxp9tnfmqs4hld2p",
+        "address": "fuel1lnenyr3lukk2m6c39gesyvz6zjmfu7fcyr3acewng0kq5gwkwxuqu7phs0",
+        "balance": "0"
+      },
+      {
+        "address": "fuel1072g0da6fyer020hkh44preuzjwqxxqqljv0heu20agw3epn8k9s9mc2cv",
+        "balance": "0"
+      },
+      {
+        "address": "fuel14mtnjdysmqa0jz9nu27gpqh6h9xtj3ex8d7an87m067wswwa5x8qmjzz4t",
         "balance": "0"
       }
     ]
@@ -100,18 +137,29 @@
     "project_name": "MARTIAN",
     "wallets": [
       {
-        "address":"0x237964d27559766f510a190b5f15adbc2006029e7f05e7a6e39c0e13437005c9",
+        "address": "0x237964d27559766f510a190b5f15adbc2006029e7f05e7a6e39c0e13437005c9",
+        "balance": "0"
+      },
+      {
+        "address": "0x01099a78b6b0b4093560dcbe8aef61fa1765928c56f664fbf4204fd32a739001",
+        "balance": "0"
+      },
+      {
+        "address": "0x9c4b4ba4490651dfc72e58eba693fefb9c9b29bc1059e2f1894c29b2706ddc0f",
+        "balance": "0"
+      },
+      {
+        "address": "0xef2db3ec4c94e0922f0ce13ce0ed9ed79b8447d37c96d38e595b717f4cb6233a",
+        "balance": "0"
+      },
+      {
+        "address": "0xf25be7566e3f7e0bcac99b11fc9ab632324b2d8b33fa339160612427cb64df5e",
         "balance": "0"
       }
     ]
   },
   {
     "project_name": "TRONLINK",
-    "wallets": [
-      {
-        "address":"TGQSoLXFMDDCV25vU714YHkTeYPYKh9Uyd",
-        "balance":"0"
-      }
-    ]
+    "wallets": []
   }
 ]

@@ -3,9 +3,10 @@ import { Project, readProjectWallets } from "../read-project-wallets";
 import { writeProjects } from "../write-projects-wallet";
 
 export async function checkWalletsOnUpdates(
-  isFirst: boolean = true
+  pathToConfig: string = './projects.json',
+  isFirst: boolean = true,
 ): Promise<ProjectBalanceData[]> {
-  let projects: Array<Project> = readProjectWallets();
+  let projects: Array<Project> = readProjectWallets(pathToConfig);
 
   let isEmpty = true;
 
@@ -20,7 +21,7 @@ export async function checkWalletsOnUpdates(
 
   if (isEmpty) {
     if (isFirst) {
-      await checkWalletsOnUpdates(false);
+      await checkWalletsOnUpdates(pathToConfig,false);
     } else {
       for (let p = 0; p < projects.length; p++) {
         for (let w = 0; w < projects[p].wallets.length; w++) {
@@ -36,10 +37,10 @@ export async function checkWalletsOnUpdates(
           );
         }
       }
-      writeProjects(projects);
+      writeProjects(projects,pathToConfig);
       return [];
     }
-    projects = readProjectWallets();
+    return [];
   }
 
   let changes: Array<ProjectBalanceData> = [];
@@ -61,7 +62,7 @@ export async function checkWalletsOnUpdates(
     }
   }
 
-  writeProjects(projects);
+  writeProjects(projects,pathToConfig);
 
   return changes;
 }
