@@ -15,5 +15,5 @@ var Networks;
     Networks[Networks["starknet"] = 9] = "starknet";
     Networks[Networks["tron"] = 10] = "tron";
     Networks[Networks["venom"] = 11] = "venom";
-})(Networks = exports.Networks || (exports.Networks = {}));
+})(Networks || (exports.Networks = Networks = {}));
 ;
