@@ -1,12 +1,12 @@
 {
-  "name": "get-wallets_lex",
+  "name": "@owl352/get-wallets",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.ts",
   "scripts": {
     "dev": "yarn tsc && node dist/index.js"
   },
-  "author": "owl",
+  "author": "owl352",
   "license": "MIT",
   "dependencies": {
     "@eversdk/core": "^1.44.3",
