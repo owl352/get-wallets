@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "yarn tsc && node dist/index.js"
   },
-  "type":"module",
+  "type": "module",
   "author": "owl352",
   "license": "MIT",
   "dependencies": {
@@ -18,7 +18,10 @@
     "colors": "^1.4.0",
     "fuels": "^0.60.0",
     "starknet": "^5.19.5",
-    "typescript": "^5.2.2",
     "web3": "^4.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/node": "^20.8.4"
   }
 }
