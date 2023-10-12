@@ -1,7 +1,7 @@
 import { ApiPromise, WsProvider } from "@polkadot/api";
-import { WalletInfoPolkadot } from "./@types";
-import { polkadotNet } from "../helpers/constants.helper";
-export * from "./@types";
+import { WalletInfoPolkadot } from "../@types";
+import { polkadotNet } from "./constants.helper";
+
 export async function getPolkadotWallet(wallet: string): Promise<string> {
   const provider = new WsProvider(polkadotNet);
   // Create an API instance for Polkadot

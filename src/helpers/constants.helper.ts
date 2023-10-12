@@ -1,4 +1,16 @@
 import { constants } from "starknet";
+import { getEthWallet } from "./get-eth-wallet.helper";
+import { getSEIWallet } from "./get-kepler-sei-wallet.helper";
+import { getPolkadotWallet } from "./get-polkadot-wallet.helper";
+import { getSuiWallet } from "./get-sui-wallet.helper";
+import { getFirechainWallet } from "./get-5rechain-wallet.helper";
+import { getVenomWallet } from "./get-venom-wallet.helper";
+import { getStarknetWallet } from "./get-starknet-wallet.helper";
+import { getFueletWallet } from "./get-fuelet-wallet.helper";
+import { getAptosWallet } from "./get-aptos-wallet.helper";
+import { getTronWallet } from "./get-tron-wallet.helper";
+
+
 
 export const ethNet: string =
   "https://prettiest-tiniest-panorama.quiknode.pro/f1bfdce8559cfd53a102183a4a551fec51826b78/";
@@ -38,3 +50,22 @@ export const fueletNet: string = 'https://beta-4.fuel.network/graphql';
 
 //! from https://explorer.aptoslabs.com/
 export const aptosExplorerGraphQl: string = 'https://indexer-testnet.staging.gcp.aptosdev.com/v1/graphql';
+
+
+
+
+
+
+export const projectNetworks = {
+  Metamask: getEthWallet,
+  Keplr: getSEIWallet,
+  Polkadot: getPolkadotWallet,
+  "SUI Wallet": getSuiWallet,
+  "5irechain": getFirechainWallet,
+  LEAP: getSEIWallet,
+  VENOM: getVenomWallet,
+  ArgentX: getStarknetWallet,
+  Fuelet: getFueletWallet,
+  MARTIAN: getAptosWallet,
+  TRONLINK: getTronWallet,
+};

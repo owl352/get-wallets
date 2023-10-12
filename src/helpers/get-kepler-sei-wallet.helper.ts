@@ -1,7 +1,6 @@
 import axios from "axios";
-import { keplerSeiREST } from "../helpers/constants.helper";
-import { SeiBalance } from "./@types";
-export * from "./@types";
+import { keplerSeiREST } from "./constants.helper";
+import { SeiBalance } from "../@types";
 
 export async function getSEIWallet(wallet: string): Promise<string> {
   const resp = await axios({

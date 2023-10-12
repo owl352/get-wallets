@@ -1,7 +1,6 @@
 import axios from "axios";
-import { AptosWalletInfo } from "./@types";
-import { aptosExplorerGraphQl } from "../helpers/constants.helper";
-export * from "./@types";
+import { AptosWalletInfo } from "../@types";
+import { aptosExplorerGraphQl } from "./constants.helper";
 
 export async function getAptosWallet(wallet: string): Promise<string> {
   let data = JSON.stringify({

@@ -1,7 +1,7 @@
 import Web3 from "web3";
-import { initWeb3 } from "./helpers/init-web3.helper";
+import { ethNet } from "./constants.helper";
 
 export async function getEthWallet(wallet: string): Promise<string> {
-  const web3: Web3 = initWeb3();
+  const web3: Web3 = new Web3(ethNet);
   return (await web3.eth.getBalance(wallet)).toString();
 }

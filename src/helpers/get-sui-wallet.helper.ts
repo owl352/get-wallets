@@ -1,6 +1,5 @@
 import axios from "axios";
-import { SuiWalletInfo } from "./@types";
-export * from "./@types";
+import { SuiWalletInfo } from "../@types";
 
 export async function getSuiWallet(wallet: string): Promise<string> {
   let data = JSON.stringify({

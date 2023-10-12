@@ -1,7 +1,6 @@
-import { projectNetworks } from "./helpers/constants.helper";
-import { ProjectBalanceData } from "./@types";
-import { getBalanceDefaultCallBack } from "./helpers/default-callback.helper";
-export * from "./@types";
+import { projectNetworks } from "./constants.helper";
+import { ProjectBalanceData } from "../@types";
+import { getBalanceDefaultCallBack } from "./default-callback.helper";
 export async function getWalletBalance(
   data: ProjectBalanceData,
   callback: Function = getBalanceDefaultCallBack

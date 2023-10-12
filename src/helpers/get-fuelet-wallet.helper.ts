@@ -1,5 +1,5 @@
 import { Wallet, Provider } from "fuels";
-import { fueletNet } from "../helpers/constants.helper";
+import { fueletNet } from "./constants.helper";
 
 export async function getFueletWallet(wallet: string): Promise<string> {
   const provider = await Provider.create(fueletNet);

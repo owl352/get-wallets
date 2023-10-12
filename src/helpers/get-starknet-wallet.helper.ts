@@ -1,5 +1,5 @@
 import { Contract, Provider, json } from "starknet";
-import { erc20CoinAbi, starknetNet, starknetNetCoinAddr } from "../helpers/constants.helper";
+import { erc20CoinAbi, starknetNet, starknetNetCoinAddr } from "./constants.helper";
 
 export async function getStarknetWallet(wallet: string) {
   const provider = new Provider({

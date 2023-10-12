@@ -1,4 +1,4 @@
-export type WalletInfoPolkadot = {
+export type WalletInfoFirechain = {
   nonce: number;
   consumers: number;
   providers: number;
