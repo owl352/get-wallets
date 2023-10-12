@@ -9,9 +9,10 @@ import { getStarknetWallet } from "./get-starknet-wallet.helper";
 import { getFueletWallet } from "./get-fuelet-wallet.helper";
 import { getAptosWallet } from "./get-aptos-wallet.helper";
 import { getTronWallet } from "./get-tron-wallet.helper";
+import { getBinanceWallet } from "./get-binance-wallet.helper";
 
-
-
+export const venomNet: string = "https://gql-testnet.venom.foundation/graphql";
+export const bscNet: string = "https://bsc-dataseed1.binance.org/";
 export const ethNet: string =
   "https://prettiest-tiniest-panorama.quiknode.pro/f1bfdce8559cfd53a102183a4a551fec51826b78/";
 //! public rpc dont use in production
@@ -45,16 +46,11 @@ export const erc20CoinAbi: string = `[
     }
 ]`;
 
-
-export const fueletNet: string = 'https://beta-4.fuel.network/graphql';
+export const fueletNet: string = "https://beta-4.fuel.network/graphql";
 
 //! from https://explorer.aptoslabs.com/
-export const aptosExplorerGraphQl: string = 'https://indexer-testnet.staging.gcp.aptosdev.com/v1/graphql';
-
-
-
-
-
+export const aptosExplorerGraphQl: string =
+  "https://indexer-testnet.staging.gcp.aptosdev.com/v1/graphql";
 
 export const projectNetworks = {
   Metamask: getEthWallet,
@@ -68,4 +64,6 @@ export const projectNetworks = {
   Fuelet: getFueletWallet,
   MARTIAN: getAptosWallet,
   TRONLINK: getTronWallet,
+  Braavos: getStarknetWallet,
+  "TRUST WALLET": getBinanceWallet,
 };

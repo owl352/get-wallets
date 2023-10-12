@@ -20,7 +20,6 @@ export async function checkWalletsOnUpdates(
       }
     }
   }
-
   if (isEmpty) {
     if (isFirst) {
       await checkWalletsOnUpdates(pathToConfig, false);

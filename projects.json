@@ -161,5 +161,31 @@
   {
     "project_name": "TRONLINK",
     "wallets": []
+  },
+  {
+    "project_name": "Braavos",
+    "wallets": [
+      {
+        "address": "0x07c540288ebe8333aebc28286bbcbe3932c68e0f48cfa88cfb580e9aedfe286c",
+        "balance": "0"
+      }
+    ]
+  },
+  {
+    "project_name": "TRUST WALLET",
+    "wallets": [
+      {
+        "address": "0xb2d240EcDade0e74C4A0f76290343EB1688cB72e",
+        "balance": "0"
+      },
+      {
+        "address": "0xe87e8173B11809304daf4229598c299C2FD26BA3",
+        "balance": "0"
+      },
+      {
+        "address": "0x8BcA3c83D8018f486c37bb74a0fEaFaf08D10075",
+        "balance": "0"
+      }
+    ]
   }
 ]

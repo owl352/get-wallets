@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "yarn tsc && node dist/index.js"
   },
-  "type": "module",
   "author": "owl352",
   "license": "MIT",
   "dependencies": {
