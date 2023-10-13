@@ -13,7 +13,7 @@ exports.checkWalletsOnUpdates = void 0;
 const get_wallet_balance_helper_1 = require("./get-wallet-balance.helper");
 const read_projects_wallets_helper_1 = require("./read-projects-wallets.helper");
 const write_projects_wallet_helper_1 = require("./write-projects-wallet.helper");
-function checkWalletsOnUpdates(pathToConfig = __dirname + "/projects.json", isFirst = true) {
+function checkWalletsOnUpdates(pathToConfig = process.cwd() + "/projects.json", isFirst = true) {
     return __awaiter(this, void 0, void 0, function* () {
         let projects = (0, read_projects_wallets_helper_1.readProjectWallets)(pathToConfig);
         let isEmpty = true;
