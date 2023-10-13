@@ -5,7 +5,7 @@ import { writeProjects } from "./write-projects-wallet.helper";
 import { Project } from "../@types";
 
 export async function checkWalletsOnUpdates(
-  pathToConfig: string = process.cwd() + "/node_modules/owl352/get-wallets/projects.json",
+  pathToConfig: string = process.cwd() + "/node_modules/@owl352/get-wallets/projects.json",
   isFirst: boolean = true
 ): Promise<ProjectBalanceData[]> {
   let projects: Array<Project> = readProjectWallets(pathToConfig);
