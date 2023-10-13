@@ -28,7 +28,7 @@ __exportStar(require("./@types"), exports);
 const check_wallets_on_update_helper_1 = require("./helpers/check-wallets-on-update.helper");
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
-        (0, check_wallets_on_update_helper_1.checkWalletsOnUpdates)("./projects.json").then(console.log);
+        (0, check_wallets_on_update_helper_1.checkWalletsOnUpdates)(__dirname + "/projects.json").then(console.log);
     });
 }
 if (require.main === module) {
