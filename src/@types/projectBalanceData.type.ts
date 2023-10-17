@@ -3,5 +3,5 @@ export type ProjectBalanceData = {
   address: string;
   balance: string;
   balanceDelta?: string;
-  info?: string;
+  info: string;
 };

@@ -13,7 +13,8 @@ exports.checkWalletsOnUpdates = void 0;
 const get_wallet_balance_helper_1 = require("./get-wallet-balance.helper");
 const read_projects_wallets_helper_1 = require("./read-projects-wallets.helper");
 const write_projects_wallet_helper_1 = require("./write-projects-wallet.helper");
-function checkWalletsOnUpdates(pathToConfig = process.cwd() + "/node_modules/@owl352/get-wallets/projects.json", isFirst = true) {
+function checkWalletsOnUpdates(pathToConfig = process.cwd() +
+    "/node_modules/@owl352/get-wallets/projects.json", isFirst = true) {
     return __awaiter(this, void 0, void 0, function* () {
         let projects = (0, read_projects_wallets_helper_1.readProjectWallets)(pathToConfig);
         let isEmpty = true;
@@ -36,6 +37,7 @@ function checkWalletsOnUpdates(pathToConfig = process.cwd() + "/node_modules/@ow
                             project: projects[p].project_name,
                             address: projects[p].wallets[w].address,
                             balance: projects[p].wallets[w].balance,
+                            info: projects[p].info,
                         }, (data) => {
                             projects[p].wallets[w].balance = data.balance;
                         });
@@ -53,6 +55,7 @@ function checkWalletsOnUpdates(pathToConfig = process.cwd() + "/node_modules/@ow
                     project: projects[p].project_name,
                     address: projects[p].wallets[w].address,
                     balance: projects[p].wallets[w].balance,
+                    info: projects[p].info,
                 }, (data) => {
                     projects[p].wallets[w].balance = data.balance;
                     if (data.balanceDelta != "0" && data.balanceDelta != undefined) {

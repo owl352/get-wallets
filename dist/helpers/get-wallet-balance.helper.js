@@ -21,6 +21,7 @@ function getWalletBalance(data, callback = default_callback_helper_1.getBalanceD
                 balanceDelta: (parseInt(v) - parseInt(data.balance)).toString(),
                 address: data.address,
                 project: data.project,
+                info: data.info,
             };
             callback(dataForCB);
         });
