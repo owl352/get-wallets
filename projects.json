@@ -62,7 +62,8 @@
         "address": "0x682e9d091d2c950e737f0a2103dda9b91df5a4bf",
         "balance": "0"
       }
-    ]
+    ],
+    "network_type": "mainnet"
   },
   {
     "project_name": "Keplr",
@@ -75,20 +76,12 @@
         "address": "sei1ezgnrlm6vfhdcpyq42agps74s5898zc827rrdu",
         "balance": "0"
       }
-    ]
+    ],
+    "network_type": "testnet?"
   },
-  {
-    "project_name": "Polkadot",
-    "wallets": []
-  },
-  {
-    "project_name": "SUI Wallet",
-    "wallets": []
-  },
-  {
-    "project_name": "5irechain",
-    "wallets": []
-  },
+  { "project_name": "Polkadot", "wallets": [] },
+  { "project_name": "SUI Wallet", "wallets": [] },
+  { "project_name": "5irechain", "wallets": [] },
   {
     "project_name": "LEAP",
     "wallets": [
@@ -96,7 +89,8 @@
         "address": "sei16tkrs9s60k8mzzn26gtgdpn0498ng0rq83gv4k",
         "balance": "0"
       }
-    ]
+    ],
+    "network_type": "testnet?"
   },
   {
     "project_name": "VENOM",
@@ -105,7 +99,8 @@
         "address": "0:93e18b20bde31d1ee5b74a0707b86870b0e8cd4502703e4fecc77b0c9dacb101",
         "balance": "0"
       }
-    ]
+    ],
+    "network_type": "testnet"
   },
   {
     "project_name": "ArgentX",
@@ -114,7 +109,8 @@
         "address": "0x060ABf7651e46a998efaD9897Ad990c3a00B2EcB7BcCda7716C5739379E1417e",
         "balance": "0"
       }
-    ]
+    ],
+    "network_type": "testnet"
   },
   {
     "project_name": "Fuelet",
@@ -131,7 +127,8 @@
         "address": "fuel14mtnjdysmqa0jz9nu27gpqh6h9xtj3ex8d7an87m067wswwa5x8qmjzz4t",
         "balance": "0"
       }
-    ]
+    ],
+    "network_type": "testnet"
   },
   {
     "project_name": "MARTIAN",
@@ -156,12 +153,10 @@
         "address": "0xf25be7566e3f7e0bcac99b11fc9ab632324b2d8b33fa339160612427cb64df5e",
         "balance": "0"
       }
-    ]
+    ],
+    "network_type": "mainnet"
   },
-  {
-    "project_name": "TRONLINK",
-    "wallets": []
-  },
+  { "project_name": "TRONLINK", "wallets": [] },
   {
     "project_name": "Braavos",
     "wallets": [
@@ -169,7 +164,8 @@
         "address": "0x07c540288ebe8333aebc28286bbcbe3932c68e0f48cfa88cfb580e9aedfe286c",
         "balance": "0"
       }
-    ]
+    ],
+    "network_type": "mainnet"
   },
   {
     "project_name": "TRUST WALLET",
@@ -186,6 +182,7 @@
         "address": "0x8BcA3c83D8018f486c37bb74a0fEaFaf08D10075",
         "balance": "0"
       }
-    ]
+    ],
+    "info": "mainnet"
   }
 ]

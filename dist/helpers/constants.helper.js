@@ -23,7 +23,7 @@ exports.suiNet = "https://sui-mainnet.public.blastapi.io";
 exports.firechainNativeNet = "wss://wss-testnet.5ire.network/";
 exports.firechainEVMNet = "https://rpc-testnet.5ire.network/";
 //! public rpc dont use in production
-exports.starknetNet = starknet_1.constants.NetworkName.SN_MAIN;
+exports.starknetNet = starknet_1.constants.NetworkName.SN_GOERLI;
 exports.starknetNetCoinAddr = "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7";
 exports.erc20CoinAbi = `[
     {
